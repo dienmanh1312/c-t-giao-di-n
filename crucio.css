@@ -5,68 +5,104 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-}
-
-
-
-.header-main{
+   
+  }
+  
+  
+  
+  .header-main{
     width: auto;
     height: 300px;
-    background-color: black;
+    background-image: url(https://demo.riccardoborchi.it/crucio/HTML/assets/img/slider1.jpg);
     background-size: 100%;
-}
-#menu ul
-{
+  }
+  #menu ul
+  {
+    text-decoration: none;
     margin-top: 0px;
   margin-left: 550px;
-}
-#menu ul li
-{
+  }
+  #menu ul li
+  {
     color: aliceblue;
   list-style-type: none;
   display: inline;
   margin-left: 50px;
-}
-h5{
+  }
+  h5{
     color: aliceblue;
     text-align: center ;
     font-size: 50px;
-}
-h1{
+  }
+  h1{
     color: black;
     text-align: center;
-}
-h2{
-    color: aliceblue;
+  }
+  h2{
+    color: rgb(21, 90, 150);
     text-align: center;
-}
-h4{
+  }
+  h4{
     color: black;
-    font-size: 20px;
-}
-
-.section.about{
+    font-size: 15px;
+  }
+  
+  .section.about{
     display: flex;
-
-}
-.col-md-4.col-sm-4.col-xs-12.box1{
+  
+  }
+  .col-md-4.col-sm-4.col-xs-12.box1{
     background-color: blueviolet;
-}
-.col-md-4.col-sm-4.col-xs-12.box2{
+  }
+  .col-md-4.col-sm-4.col-xs-12.box2{
     background-color: rgb(79, 27, 128);
-}
-.col-md-4.col-sm-4.col-xs-12.box3{
+  }
+  .col-md-4.col-sm-4.col-xs-12.box3{
     background-color: rgb(55, 18, 90);
-}
-.row.text-center.wow.fadeInLeft.animated{
+  }
+  .row.text-center.wow.fadeInLeft.animated{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-.row.text-center.wow.fadeInRight.animated{
+    text-decoration: none;
+  }
+  .row.text-center.wow.fadeInRight.animated{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+  }
+  
+  .section.dark {
+    padding: 50px ;
+    background-color: #AD00FF;
+    padding: 90px ;
+  }
+  .section.dark h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 1.8;
+  }
+  .section.dark h3 {
+    color: #FFF;
+    line-height: 1.5;
+  }
+  .section {
+    float: left;
+    width: 100%;
+    background-color: #FFF;
+  }
+  *{
+    margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .row.text-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: 45px;
+    text-decoration: none;
     
-}
+  }
